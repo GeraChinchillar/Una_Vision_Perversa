@@ -44,7 +44,7 @@ window.onload = function(){
         mostrar=event.srcElement.id;
 
         opt[mostrar].removeAttribute("hidden");
-        menu[mostrar].style.background ="#1c313a";
+        menu[mostrar].style.background ="white";
     });
 
 

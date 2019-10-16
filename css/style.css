@@ -51,6 +51,7 @@ h2{
 
 p{
     font-size: 1.3em;
+    text-align: justify;
 }
 
 nav{
@@ -71,6 +72,7 @@ nav ul li{
     line-height: 2.25em;
     padding: 0 2em;
     border: 0;
+    border-radius: 10px;
     font-size: 1.5em;
 }
 
@@ -116,9 +118,21 @@ ul li{
 }
 
 main{
-    display: block;
-    width: 1 hv;
+    width: 100%;
     background-color: white;
     color: black;
+    padding-bottom: 4em;
 
+}
+
+.title{
+    padding: 1em;
+}
+
+.b-img{
+    width:300px;
+    height:250px;
+    border-radius:5px;
+    float: left;
+    margin: 1em;
 }
