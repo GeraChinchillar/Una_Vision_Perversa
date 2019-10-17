@@ -124,15 +124,35 @@ main{
     padding-bottom: 4em;
 
 }
+.info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-columns: 1fr;
+    grid-auto-flow: dense;
+    column-gap: 1em;
+    row-gap: 1em;
+    margin: 1em 3em;
+}
 
 .title{
     padding: 1em;
 }
 
-.b-img{
-    width:300px;
-    height:250px;
+.d1-img{
+    width: 75%;
+    height: 100%;
+    grid-column: span 1;
+    grid-row: span 2;
     border-radius:5px;
-    float: left;
-    margin: 1em;
+    margin: 0 2em;
+}
+
+.d1-p{
+    grid-column: span 2;
+}
+.d3-img{
+    width: 50%;
+    height: 100%;
+    grid-row: span 3;
+    margin-left: 9  em;
 }
